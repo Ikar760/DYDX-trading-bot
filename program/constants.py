@@ -5,13 +5,16 @@ from decouple import config
 MODE = "DEVELOPMENT"
 
 # Close all open position & orders
-ABORT_ALL_POSITIONS = False
+ABORT_ALL_POSITIONS = True
 
 #Find Cointagrated pairs
-FIND_COINTEGRATED = True
+FIND_COINTEGRATED = False
+
+# Manage Exits
+MANAGE_EXITS = True
 
 # Place trades
-PLACES_TRADES = True
+PLACE_TRADES = True
 
 # Resolution
 RESOLUTION = "1HOUR"
